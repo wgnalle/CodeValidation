@@ -1,0 +1,24 @@
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="validate.js"></script>
+</head>
+<body>
+<div>
+  Enter XML to validate:<br />
+  <textarea rows="4" cols="50" id="xmlcode" name="xmlcode"></textarea><br />
+  <div id="xmlerror" name="xmlerror" style="color:red;">The XML is invalid.</div>
+  <div id="xmlnoerror" name="xmlnoerror" style="color:green;">The XML is valid.</div>
+  <input type="button" id="validatexml" value="Validate XML">
+</div>
+
+<div>
+  Enter PHP to validate:<br />
+  <textarea rows="4" cols="50" id="phpcode" name="phpcode"></textarea><br />
+  <div id="phperror" name="phperror" style="color:red;">The PHP is invalid.</div>
+  <div id="phpnoerror" name="phpnoerror" style="color:green;">The PHP is valid.</div>
+  <input type="button" id="validatephp" value="Validate PHP">
+</div>
+
+</body>
+</html>
